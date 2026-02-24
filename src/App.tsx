@@ -70,7 +70,8 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/login" replace />} />
+          <Route path="/home-demo" element={<Home />} />
           <Route path="/login" element={<Login />} />
 
           <Route
