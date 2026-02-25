@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Backend base URL
-const BASE_URL = "http://localhost:3001"; // backend NestJS port
+const BASE_URL = "http://72.62.254.29"; // VPS IP Backend
 
 const axiosInstance = axios.create({
     baseURL: BASE_URL,
