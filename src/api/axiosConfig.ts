@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Backend base URL
-const BASE_URL = "http://72.62.254.29"; // VPS IP Backend
+const BASE_URL = "https://api.boq.testing-production.com"; // Secure VPS Backend
 
 const axiosInstance = axios.create({
     baseURL: BASE_URL,
